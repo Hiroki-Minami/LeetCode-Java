@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65c353f8-0b80-4cd2-9e86-302fe486bc43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/MinimumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/util/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
