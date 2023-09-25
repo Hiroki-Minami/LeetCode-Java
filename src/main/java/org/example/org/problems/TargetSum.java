@@ -1,20 +1,24 @@
 package org.example.org.problems;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class TargetSum {
 
-    int pattern = 0;
-
+    Map<String, Integer> memo = new HashMap<>();
     public int findTargetSumWays(int[] nums, int target) {
-        findTargetSumWaysHelper(0, 0, target, nums);
-        return pattern;
+        return findTargetSumWaysHelper(0, 0, target, nums);
     }
 
-    private void findTargetSumWaysHelper(int soFar, int index, int target, int[] nums) {
+    private int findTargetSumWaysHelper(int soFar, int index, int target, int[] nums) {
+        String key = String.format("%d:%d", index, soFar);
+        if (memo.containsKey(key)) { return memo.get(key); }
         if (index == nums.length) {
-            pattern = soFar == target ? pattern + 1: pattern;
-            return;
+            return soFar == target ? 1: 0;
         }
-        findTargetSumWaysHelper(soFar + nums[index], index + 1, target, nums);
-        findTargetSumWaysHelper(soFar - nums[index], index + 1, target, nums);
+        int plus = findTargetSumWaysHelper(soFar + nums[index], index + 1, target, nums);
+        int minus = findTargetSumWaysHelper(soFar - nums[index], index + 1, target, nums);
+        memo.put(key, plus + minus);
+        return plus + minus;
     }
 }
