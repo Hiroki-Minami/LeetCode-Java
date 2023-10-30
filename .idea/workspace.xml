@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65c353f8-0b80-4cd2-9e86-302fe486bc43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/FindBottomLeftTreeValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/KokoEatingBananas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/MaximumAverageSubarrayI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/PartitionArrayIntoDisjointIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/SumOfLeftLeaves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/FindLargestValueInEachTreeRow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
