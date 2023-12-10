@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65c353f8-0b80-4cd2-9e86-302fe486bc43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/ShortestDistanceToACharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/CheckIfNAndItsDoubleExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/DeleteLeavesWithAGivenValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/Shift2DGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/TallestBillboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/TopKFrequentWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/TransposeMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/org/problems/ValidMountainArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,5 +88,26 @@
       <updated>1692239036428</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/org/problems/TopKFrequentWords.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/org/problems/TopKFrequentWords.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/org/problems/TopKFrequentWords.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

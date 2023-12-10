@@ -1,0 +1,18 @@
+package org.example.org.problems;
+
+public class ValidMountainArray {
+    public boolean validMountainArray(int[] arr) {
+        if (arr.length < 2 || arr[1] == arr[0] || arr[1] < arr[0]) { return false; }
+        boolean isIncreasing = true;
+        int changeCount = 1;
+
+        for (int i = 2; i < arr.length; i++) {
+            if (arr[i] == arr[i-1]) { return false; }
+            boolean temp = arr[i] > arr[i-1];
+            changeCount = isIncreasing != temp ? changeCount + 1: changeCount;
+            if (changeCount > 2) { return false; }
+            isIncreasing = temp;
+        }
+        return changeCount == 2;
+    }
+}
